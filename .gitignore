@@ -377,3 +377,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /NNF2.Cntracer/自定义日志/2022/01
+
+# pro user
+NNF2.Cntracer.csproj.user
