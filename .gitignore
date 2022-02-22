@@ -380,3 +380,4 @@ FodyWeavers.xsd
 
 # pro user
 NNF2.Cntracer.csproj.user
+AppSetting.json
