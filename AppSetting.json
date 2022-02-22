@@ -1,0 +1,11 @@
+{
+  "set": {
+    "ProjectName": "test", //项目名称
+    "ChannelId": "", //频道id
+    "Content": [ "test", "哈哈" ], //发送文本
+    "Seconds": 10, //等待时间
+    "ProxyIP": "", //代理ip,暂时不用，本地使用
+    "Auth": "获取到的auth的值", //账号唯一验证
+    "Nonce": "" //随机数，随缘，最好跟实际情况别有太多差异，逻辑未知
+  }
+}
