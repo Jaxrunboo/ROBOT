@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Robot
+namespace RobotForDisMsg
 {
     class Program
     {
@@ -47,7 +47,6 @@ namespace Robot
 
                     try
                     {
-                        throw new Exception();
                         int length = msgSet.Content.Length;
                         Random rand = new Random();
                         var randIndex = rand.Next(0, length - 1);
@@ -55,7 +54,6 @@ namespace Robot
                         var cont = msgSet.Content[randIndex];
                         var res = await Post(url, cont, msgSet.Auth, msgSet.Nonce);
                         resStatus = "success";
-                       
                     }
                     catch (Exception ex)
                     {
